@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated outputs and local datasets
+output/
+*.csv
+*.xlsx
+*.db
+
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.out
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
